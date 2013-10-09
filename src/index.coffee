@@ -8,3 +8,4 @@ module.exports = class SVGMINIFY
  
   onCompile: (changeFiles) ->
     spawn('svg/svg_minify.py',['app', 'target/app.css', 'target/app.svg'])
+    spawn('node_modules/.bin/svgo',['target/app.svg'])
