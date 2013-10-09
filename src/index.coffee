@@ -1,4 +1,4 @@
-fs = require('fs')
+spawn = require('child_process').spawn
 
 module.exports = class SVGMINIFY
   brunchPlugin: yes
@@ -7,5 +7,4 @@ module.exports = class SVGMINIFY
     null
  
   onCompile: (changeFiles) ->
-    #fs.
-    console.log changeFiles
+    spawn('svg/svg_minify.py',['app', 'target/app.css', 'target/app.svg'])
