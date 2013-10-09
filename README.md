@@ -10,7 +10,7 @@ Or, do manual install:
 * Add `"svg-minify-brunch": "x.y.z"` to `package.json` of your brunch app.
   Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
-`"svg-minify-brunch": "git+ssh://git@github.com:brunch/svg-minify-brunch.git"`.
+`"svg-minify-brunch": "git+ssh://git@github.com:schoolshape/svg-minify-brunch.git"`.
 
 ## License
 
