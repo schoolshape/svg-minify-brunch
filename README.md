@@ -5,6 +5,10 @@ Adds svg minify support to
 ## Usage
 Install the plugin via npm with `npm install --save svg-minify-brunch`.
 
+Requires python-rsvg.  Install on ubuntu:
+
+    apt-get install python-software-properties python-rsvg
+
 Or, do manual install:
 
 * Add `"svg-minify-brunch": "x.y.z"` to `package.json` of your brunch app.
@@ -16,7 +20,7 @@ Or, do manual install:
 
 The MIT License (MIT)
 
-Copyright (c) 2012-2013 Schoolshape Limited
+Copyright (c) 2012-2013 Schoolshape Limited http://schoolshape.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

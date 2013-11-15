@@ -1,22 +1,21 @@
 {
   "name": "svg-minify-brunch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds svg minify support to brunch.",
-  "author": "Schoolshape (http://www.schoolshape.com/)",
-  "homepage": "https://github.com/brunch/svg-minify-brunch",
+  "author": {
+    "name": "Schoolshape",
+    "url": "http://www.schoolshape.com/"
+  },
+  "homepage": "https://github.com/schoolshape/svg-minify-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/svg-minify-brunch.git"
+    "url": "git@github.com:schoolshape/svg-minify-brunch.git"
   },
   "main": "./lib/index",
-  "scripts": {
-    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
-    "test": "node_modules/.bin/mocha --require test/common.js"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "mocha": "1.11.0",
-    "chai": "1.7.0"
+  "scripts": {},
+  "dependencies": {},
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/schoolshape/svg-minify-brunch/issues"
   }
 }
